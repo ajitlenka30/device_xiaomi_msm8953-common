@@ -150,11 +150,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.4.vendor
 
-# FM
-PRODUCT_PACKAGES += \
-    RevampedFMRadio \
-    libqcomfmjni
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
@@ -270,7 +265,7 @@ PRODUCT_PACKAGES += \
 
 # Perf
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.0.vendor
+    vendor.qti.hardware.perf@2.3.vendor
 
 # Power
 PRODUCT_PACKAGES += \
